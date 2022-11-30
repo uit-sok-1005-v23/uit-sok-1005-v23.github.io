@@ -2,8 +2,11 @@
 
 # courseplan SOK-1005 Spring 2023
 
-| Session <img width=80/>  | Date  |To do/done before/after class... <img width=200/>  |
+| Date <img width=80/>  | Session  |Topics/Resources <img width=200/>  |
 |-----------------------|---------|-----------------------------------| 
-|**Preparation**  | | In this course, we base our estimation using an open-source programming software R with a graphical user interface RStudio.Therefore, you are encourgaed to donwload them on your laptop and familiarize yourself. You can download R at [R](http://www.r-project.org){:target='_blank_'}, and R-Studio at [R-Studio](http://www.rstudio.com){:target='_blank_'}. If you have got any problems downloading R and RStudio, contact "Orakelet". You can also use the online version of R using jupyter interfce at [jupyter](https://www.jupyter.uit.no){:target='_blank_'}.  <br />                                                                                                                                                                                                <br />                                                                                                                                                              If you need to improve your R skills, have a look at [DataCamp](https://www.datacamp.com/courses/free-introduction-to-r){:target='_blank_'} for free. Follow this link for a bunch of [CheatSheets](https://www.rstudio.com/resources/cheatsheets/){:target='_blank_'}. Note the RStudio IDE Cheat sheet and the Data Transformation Cheat sheet. For most of the chapters in the course, our textbook will be: [Principles of Econometrics](http://principlesofeconometrics.com/poe5/poe5.html){:target='_blank_'}, 5th Edition (POE5), Wiley - 2018. Available at the campus bookstore Akademika. So, you are encouraged to buy the book. |                                                   <br />
-| 1|24/08 | - Brief introduction about consumer theory <br/> - Chapter 10 – Endogenous Regressors & Moment-Based Estimation (from Principles of Econometrics)|
+| 1|08/01 | Introduction|
+| | | Chapter 1 [RfDC](https://r4ds.had.co.nz/)|
+| | | Introduction to R [datacamp](https://www.datacamp.com/users/sign_in?redirect=http%3A%2F%2Fapp.datacamp.com%2Flearn%2Fcourses%2Fintroduction-to-the-tidyverse)|
+| | |Here you will find a small digital book about Tidyverse,The [Tidyverse Cookbook](https://rstudio-education.github.io/tidyverse-cookbook/)|
+| | | Read these two articles from The Economist; [Article 1](https://uit.instructure.com/files/1703066) Article 2|
 
