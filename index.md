@@ -2,30 +2,42 @@
 {% include navbar.html %} <!-- Kode for navigasjonsmeny. Se navbar.html for å gjøre endringer. -->
 <!-- Gjør endringer under her -->
 
-## Course Flow   
+## Syllabus 
+The course plan contains a chronological overview of the topics we review. The schedule shows the time and place we meet. All material will be available on Canvas.
 
-- [Where are we(progress),and what to do next!](courseplan.md){:target="blank"}
+- [Syllabus](courseplan.md){:target="blank"}
 
 ## Schedule 
-A link to [Timeplan](https://timeplan.uit.no/emne_timeplan.php?sem=22h&module=SOK-3008-1#week=33-52 ){:target="blank"} at timeplan.uit.no
+A link to [Timeplan](https://timeplan.uit.no/emne_timeplan.php?sem=23v&module%5B%5D=SOK-1005-1 ){:target="blank"} at timeplan.uit.no
 
 ## Course description
  
-- [course content and objectives](https://uit.no/utdanning/emner/emne/765596/sok-3008){:target="blank"}
+- [Learning outcome description](https://uit.no/utdanning/emner/emne/744168/sok-1005){:target="blank"}
 
-## Obligatory Assignments (Examination) and Submission 
+In the course plan, the syllabus is indicated on computer camp and from the online book. You yourself are responsible for keeping up to date with the syllabus according to the course plan. Eventually, there will also be accompanying coding tasks. These are given pass/fail, and all work requirements must be passed for the course to be passed.
 
- In this course, you will write two obligatory term papers on given topics on market analysis and a project presentation. Your final grade is determined based on these two term papers (this implies that there is no final exam for this course). You can write the term papers alone or with up to two individuals in a group. The term papers should have to be submitted through Wiseflow within a given deadline date.
+## Course description
+
+ The course is normally taken in the second semester, and counts for 10 credits. 
  
-## Subject teacher   
+## Teacher info   
 
-- [Dejene, G.K.](https://uit.no/ansatte/person?p_document_id=559969){:target="blank"} (subject manager)
+- [Dejene, G.K.](https://uit.no/ansatte/person?p_document_id=559969){:target="blank"}
+- [Amund Jenssen]
+- [xxx] is a student assistant
 
-## Text book 
-- [Buy the textbook: Principles of Econometrics, 5th Edition (POE5), Wiley - 2018. Available at the campus bookstore Akademika](https://principlesofeconometrics.com/poe5/poe5.html){:target="blank"}
+## Administrative questions
+For inquiries of an administrative nature, send an e-mail to: hhcampus@hjelp.uit.no . There you will get help from the Business School's administration.
 
+## Syllabus
+- 
 ## Announcements
 
 Announcements and messages are posted in [Canvas](https://uit.instructure.com/courses/26960/announcements){:target="blank"}.
+
+## Submission and examination 
+The course has portfolio evaluation. All assignments are compulsory; some are work requirements (without grade, must only be approved), while others are graded. For each task, it will be specified which category it belongs to.
+
+  . Data Science project. You will carry out a project, either alone or up to 3 in a group, which will make up the majority of your portfolio. More information will come.
 
   
