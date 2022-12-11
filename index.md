@@ -29,8 +29,8 @@ In the course plan, the syllabus is indicated on computer camp and from the onli
 ## Administrative questions
 For inquiries of an administrative nature, send an e-mail to: hhcampus@hjelp.uit.no . There you will get help from the Business School's administration.
 
-## Syllabus
-- 
+## Text Book
+- [R for Data Science - Hadley Wickham & Garrett Grolemund](https://r4ds.had.co.nz/){:target="blank"}
 ## Announcements
 
 Announcements and messages are posted in [Canvas](https://uit.instructure.com/courses/26960/announcements){:target="blank"}.
