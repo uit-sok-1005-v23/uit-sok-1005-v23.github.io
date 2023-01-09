@@ -19,4 +19,6 @@
 |||Chapters 2, 3, 4 and 5 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Cleaning Data in R [datacamp](https://app.datacamp.com/learn/courses/cleaning-data-in-r){:target='_blank_'}|
 |||Data Manipulation with dplyr [datacamp](https://app.datacamp.com/learn/courses/data-manipulation-with-dplyr){:target='_blank_'}|
+||||
+||||
 
