@@ -23,8 +23,8 @@ In the course plan, the syllabus is indicated on computer camp and from the onli
 ## Teacher info   
 
 - [Dejene, G.K.](https://uit.no/ansatte/person?p_document_id=559969){:target="blank"}
-- [Amund Jenssen]
-- [xxx] is a student assistant
+-  Amund Jenssen
+- TBA is a student assistant
 
 ## Administrative questions
 For inquiries of an administrative nature, send an e-mail to: hhcampus@hjelp.uit.no . There you will get help from the Business School's administration.
