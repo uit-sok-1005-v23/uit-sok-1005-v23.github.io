@@ -38,6 +38,6 @@ Announcements and messages are posted in [Canvas](https://uit.instructure.com/co
 
 ## Submission and examination 
 The course has portfolio evaluation. All assignments are compulsory; some are work requirements (without grade, must only be approved), while others are graded. For each task, it will be specified which category it belongs to.
-"*" Data Science project. You will carry out a project, either alone or up to 3 in a group, which will make up the majority of your portfolio. More information will come.
+- Data Science project. You will carry out a project, either alone or up to 3 in a group, which will make up the majority of your portfolio. More information will come.
 
   
