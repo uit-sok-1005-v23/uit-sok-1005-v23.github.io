@@ -14,7 +14,7 @@ A link to [Timeplan](https://timeplan.uit.no/emne_timeplan.php?sem=23v&module%5B
  
 - [Learning outcome description](https://uit.no/utdanning/emner/emne?p_document_id=785832&ar=2023&semester=V){:target="blank"}
 
-In the course plan, the syllabus is indicated on computer camp and from the online book. You yourself are responsible for keeping up to date with the syllabus according to the course plan. Eventually, there will also be accompanying coding tasks. These are given pass/fail, and all work requirements must be passed for the course to be passed.
+In the course plan, the syllabus is indicated on datacamp and from the online book. You yourself are responsible for keeping up to date with the syllabus according to the course plan. Eventually, there will also be accompanying coding tasks. These are given pass/fail, and all work requirements must be passed for the course to be passed.
 
 ## Course description
 
