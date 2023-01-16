@@ -16,7 +16,7 @@
 |||Introduction to Importing Data in R [datacamp](https://app.datacamp.com/learn/courses/importing-data-in-r-part-1){:target='_blank_'}|
 |||Intermediate Importing Data in R [datacamp](https://app.datacamp.com/learn/courses/importing-data-in-r-part-2){:target='_blank_'}|
 |||All online books about R gathered in one place in the [Big Book of R](https://www.bigbookofr.com/index.html){:target='_blank_'}|
-|||**`In class:`** <br />[A small intro task](https://docs.google.com/document/d/1J7Mlpn7DrgWU03xMwohfXomXM_RLBFK2uSsmb9r3ZEk/edit?usp=sharing){:target='_blank_'}|
+|||**`In class:`** <br />[A small task](https://docs.google.com/document/d/1J7Mlpn7DrgWU03xMwohfXomXM_RLBFK2uSsmb9r3ZEk/edit?usp=sharing){:target='_blank_'}|
 |3|24/01|	Data Wrangling intro|
 |||Chapters 2, 3, 4 and 5 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Cleaning Data in R [datacamp](https://app.datacamp.com/learn/courses/cleaning-data-in-r){:target='_blank_'}|
