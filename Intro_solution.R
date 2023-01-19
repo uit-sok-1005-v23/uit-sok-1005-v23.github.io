@@ -465,6 +465,8 @@ gapminder %>%
   summarise(correlation = cor(lifeExp, gdpPercap)) %>% 
   arrange(correlation)
 
+browseURL("https://www.investopedia.com/ask/answers/032515/what-does-it-mean-if-correlation-coefficient-positive-negative-or-zero.asp")
+
 #' sorted descending
 gapminder %>%
   group_by(country) %>%
