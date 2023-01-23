@@ -1,6 +1,4 @@
 
-# kagle 
-
 # Global Temperature
 # A comment
 rm(list=ls())
