@@ -88,9 +88,6 @@ df_tidy <- df_tidy %>% mutate(Year = year(Date),
 df_tidy <- df_tidy %>% select(Year, Month, Date, Globe, Land, Ocean)
 df_tidy 
 
-#####################################
-### Session 2 on Global temperature
-#####################################
 
 # looking at the structure of the data frame
 # No numbers all characters, except date
