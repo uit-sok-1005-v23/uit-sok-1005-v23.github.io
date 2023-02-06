@@ -24,5 +24,16 @@
 |4|30/01|**`Siminar with Ida MH Bergland`**|
 |5|07/02|**`Siminar with Ida MH Bergland`**|
 |**Deadline**|08/02|[Assignment-1](https://docs.google.com/document/d/1-MzRu4dsBwtIPBFWYnNz01lHbQgNWAFu4Xi_jzsHoHg/edit?usp=sharing){:target='_blank_'}|
-||||
+|6|14/02|Web Scraping with R|
+|||Chapter 12 and 13 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
+|||Web Scraping in R [datacamp](https://app.datacamp.com/learn/courses/web-scraping-in-r){:target='_blank_'}|
+|||Working with Web Data in R [datacamp](https://app.datacamp.com/learn/courses/web-scraping-in-r){:target='_blank_'}|
+|7|20/02|Data Visualization|
+|||Chapter 28 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
+|||Introduction to Data Visualization with ggplot2 [datacamp](https://app.datacamp.com/learn/courses/data-visualization-with-ggplot2-1){:target='_blank_'}|
+|||Intermediate Data Visualization with ggplot2 [datacamp](https://app.datacamp.com/learn/courses/data-visualization-with-ggplot2-2){:target='_blank_'}|
+|8|28/02|Data Wrangling|
+|||Chapter 17-21 (https://r4ds.had.co.nz/){:target='_blank_'}|
+|||Working with data in the Tidyverse [datacamp](https://app.datacamp.com/learn/courses/reshaping-data-with-tidyr){:target='_blank_'}|
+|||Reshaping Data with tidyr [datacamp](https://app.datacamp.com/learn/courses/reshaping-data-with-tidyr){:target='_blank_'}|
 
