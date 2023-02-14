@@ -23,7 +23,7 @@
 |||Data Manipulation with dplyr [datacamp](https://app.datacamp.com/learn/courses/data-manipulation-with-dplyr){:target='_blank_'}|
 |4|30/01|**`Siminar with Ida MH Bergland`**|
 |5|07/02|**`Siminar with Ida MH Bergland`**|
-|**Deadline**|08/02|[Assignment-1](https://docs.google.com/document/d/1-MzRu4dsBwtIPBFWYnNz01lHbQgNWAFu4Xi_jzsHoHg/edit?usp=sharing){:target='_blank_'}|
+|**Deadline**|08/02|[Assignment-1](https://docs.google.com/document/d/1-MzRu4dsBwtIPBFWYnNz01lHbQgNWAFu4Xi_jzsHoHg/edit?usp=sharing){:target='_blank_'},<br /> [Solution](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Solution.Assignment-1.R){:target='_blank_'}|
 |6|14/02|Web Scraping with R|
 |||Chapter 12 and 13 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Web Scraping in R [datacamp](https://app.datacamp.com/learn/courses/web-scraping-in-r){:target='_blank_'}|
