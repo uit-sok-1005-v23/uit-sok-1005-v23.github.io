@@ -34,6 +34,7 @@
 |||Chapter 28 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Introduction to Data Visualization with ggplot2 [datacamp](https://app.datacamp.com/learn/courses/data-visualization-with-ggplot2-1){:target='_blank_'}|
 |||Intermediate Data Visualization with ggplot2 [datacamp](https://app.datacamp.com/learn/courses/data-visualization-with-ggplot2-2){:target='_blank_'}|
+|||**`In class:`** <br />  [Data Wrangling R code](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/superstore_sales.R){:target='_blank_'}|
 |8|28/02|Data Wrangling|
 |||Chapter 17-21 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Working with data in the Tidyverse [datacamp](https://app.datacamp.com/learn/courses/reshaping-data-with-tidyr){:target='_blank_'}|
