@@ -10,7 +10,7 @@ data("starwars")
 
 # copying 
 sw <- starwars
-?sw
+??sw 
 
 ###----- Missing data: ----- 
 
