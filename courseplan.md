@@ -39,4 +39,12 @@
 |||Chapter 17-21 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Working with data in the Tidyverse [datacamp](https://app.datacamp.com/learn/courses/reshaping-data-with-tidyr){:target='_blank_'}|
 |||Reshaping Data with tidyr [datacamp](https://app.datacamp.com/learn/courses/reshaping-data-with-tidyr){:target='_blank_'}|
+|9|07/03|Dates, Times, and Strings |
+|||Chapter 14 and 16 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
+|||Working with Dates and Times in R [datacamp](https://app.datacamp.com/learn/courses/working-with-dates-and-times-in-r){:target='_blank_'}|
+|||String Manipulation with stringr in R [datacamp](https://app.datacamp.com/learn/courses/string-manipulation-with-stringr-in-r){:target='_blank_'}|
+|10|14/03||
+|10|21/03||
+|12|31/03||
+
 
