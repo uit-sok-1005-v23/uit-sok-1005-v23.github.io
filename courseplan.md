@@ -35,15 +35,13 @@
 |||Introduction to Data Visualization with ggplot2 [datacamp](https://app.datacamp.com/learn/courses/data-visualization-with-ggplot2-1){:target='_blank_'}|
 |||Intermediate Data Visualization with ggplot2 [datacamp](https://app.datacamp.com/learn/courses/data-visualization-with-ggplot2-2){:target='_blank_'}|
 |||**`In class:`** <br />  [Data Wrangling R code](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/superstore_sales.R){:target='_blank_'},<br /> [R code Questions](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/R_test_questions.R){:target='_blank_'}|
-|8|28/02|Data Wrangling|
-|||Chapter 17-21 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
-|||Working with data in the Tidyverse [datacamp](https://app.datacamp.com/learn/courses/reshaping-data-with-tidyr){:target='_blank_'}|
-|||Reshaping Data with tidyr [datacamp](https://app.datacamp.com/learn/courses/reshaping-data-with-tidyr){:target='_blank_'}|
-|9|07/03|Dates, Times, and Strings |
+||| You should continue working on the following dataCamp modules  <br /> in the following weeks:<br /> <br /> Data Wrangling:  <br />  <br />  Chapter 17-21 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}, <br />  <br /> Working with data in the Tidyverse [datacamp](https://app.datacamp.com/learn/courses/reshaping-data-with-tidyr){:target='_blank_'},  <br /> <br /> Reshaping Data with tidyr [datacamp](https://app.datacamp.com/learn/courses/reshaping-data-with-tidyr){:target='_blank_'}|
+|8|28/02|Dates, Times, and Strings  |
 |||Chapter 14 and 16 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Working with Dates and Times in R [datacamp](https://app.datacamp.com/learn/courses/working-with-dates-and-times-in-r){:target='_blank_'}|
-|||String Manipulation with stringr in R [datacamp](https://app.datacamp.com/learn/courses/string-manipulation-with-stringr-in-r){:target='_blank_'}|
-|10|14/03||
+|||String Manipulation with stringr in R [datacamp](https://app.datacamp.com/learn/courses/string-manipulation-with-stringr-in-r){:target='_blank_'} <br /> <br />**`In class:`** <br />|
+||07/03||
+|9|14/03||
 |10|21/03||
 |12|31/03||
 
