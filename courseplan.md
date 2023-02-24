@@ -39,7 +39,7 @@
 |8|28/02|Dates, Times, and Strings  |
 |||Chapter 14 and 16 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Working with Dates and Times in R [datacamp](https://app.datacamp.com/learn/courses/working-with-dates-and-times-in-r){:target='_blank_'}|
-|||String Manipulation with stringr in R [datacamp](https://app.datacamp.com/learn/courses/string-manipulation-with-stringr-in-r){:target='_blank_'} <br /> <br />**`In class:`** <br />|
+|||String Manipulation with stringr in R [datacamp](https://app.datacamp.com/learn/courses/string-manipulation-with-stringr-in-r){:target='_blank_'} <br /> <br />**`In class:`** <br /> [Working with dates](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Working_with_dates.R), <br /> [Dates and time](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Dates_and_times_lubridate.R),<br /> <br />  [Working_with_time_series.R](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Working_with_time_series.R)<br /> |
 ||07/03||
 |9|14/03||
 |10|21/03||
