@@ -29,7 +29,7 @@
 |||Web Scraping in R [datacamp](https://app.datacamp.com/learn/courses/web-scraping-in-r){:target='_blank_'}|
 |||Working with Web Data in R [datacamp](https://app.datacamp.com/learn/courses/web-scraping-in-r){:target='_blank_'}|
 |||**`In class:`** <br /> [lecture notes on web scraping](https://uit-sok-1005-v23.github.io/Web_scraping.html)|
-|**Deadline**|24/02|[Assignment-2](https://docs.google.com/document/d/1scj5yyL-EO6_sEebkUJc9gaJuISom5HTLgnJMjE519Q/edit?usp=sharing){:target='_blank_'} <br /> Store your code in your GitHub repository, and submit the link in Canvas.  |
+|**Deadline**|24/02|[Assignment-2](https://docs.google.com/document/d/1scj5yyL-EO6_sEebkUJc9gaJuISom5HTLgnJMjE519Q/edit?usp=sharing){:target='_blank_'} <br /> Store your code in your GitHub repository, and submit the link in Canvas. <br />[Solution](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Solution_Assignment_2.R){:target='_blank_'} |
 |7|20/02|Data Visualization|
 |||Chapter 28 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Introduction to Data Visualization with ggplot2 [datacamp](https://app.datacamp.com/learn/courses/data-visualization-with-ggplot2-1){:target='_blank_'}|
