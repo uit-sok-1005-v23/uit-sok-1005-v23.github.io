@@ -41,7 +41,7 @@
 |||Working with Dates and Times in R [datacamp](https://app.datacamp.com/learn/courses/working-with-dates-and-times-in-r){:target='_blank_'}|
 |||String Manipulation with stringr in R [datacamp](https://app.datacamp.com/learn/courses/string-manipulation-with-stringr-in-r){:target='_blank_'} <br /> |
 |||**`In class:`** <br /> [Working with dates](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Working_with_dates.R), <br /> [Dates and time](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Dates_and_times_lubridate.R),<br /> <br />  [Working_with_time_series.R](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Working_with_time_series.R)<br /> |
-|9|14/03||
+|9|14/03|**`Use Quarto and prepare a small html report of this`** [task](https://docs.google.com/document/d/1ROl2bQqnpNnPj89x8pjcMnN8TMXJp5WlCTYlNtmjmGA/edit#){:target='_blank_'} **`with a deadline of Tuesday, March 14 at 16:00. Store your code in your Github repository, and submit the link in Canvas. This is a compulsory assignment.`**|
 |10|21/03||
 |12|31/03||
 
