@@ -45,7 +45,7 @@
 |||Chapter 15, 26 and 27 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Categorical Data in the Tidyverse [datacamp](https://app.datacamp.com/learn/courses/categorical-data-in-the-tidyverse){:target='_blank_'}|
 |||Communicating with Data in the Tidyverse [datacamp](https://app.datacamp.com/learn/courses/communicating-with-data-in-the-tidyverse){:target='_blank_'}, <br />**`In class:`** <br />  [Factors](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Factors.R){:target='_blank_'}|
-|**Deadline**|14/03|**`Use Quarto and prepare a small html report of this`** [task](https://docs.google.com/document/d/1ROl2bQqnpNnPj89x8pjcMnN8TMXJp5WlCTYlNtmjmGA/edit#){:target='_blank_'} **`with a deadline of Tuesday, March 14 at 16:00. Store your code in your Github repository, and submit the link in Canvas. This is a compulsory assignment.`**|
+|**Deadline**|16/03|**`Use Quarto and prepare a small html report of this`** [task](https://docs.google.com/document/d/1ROl2bQqnpNnPj89x8pjcMnN8TMXJp5WlCTYlNtmjmGA/edit#){:target='_blank_'} **`with a deadline of Tuesday, March 14 at 16:00. Store your code in your Github repository, and submit the link in Canvas. This is a compulsory assignment.`**|
 |10|21/03|Functions and functional programming|
 |||Chapter 22-25 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
 |||Introduction to Writing Functions in R [datacamp](https://app.datacamp.com/learn/courses/introduction-to-writing-functions-in-r){:target='_blank_'}|
