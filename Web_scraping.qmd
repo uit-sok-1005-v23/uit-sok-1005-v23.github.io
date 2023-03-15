@@ -1,0 +1,406 @@
+---
+title: "Web Scraping with R"
+description: Lecture notes  
+date: today # other options: now, last-modified
+author:
+  - name: --- 
+    #url: 
+    affiliation: UiT The Arctic University of Norway 
+    #affiliation-url: https://uit.no/ansatte/dejene.g.kidane
+title-block-banner: true
+#title-block-banner: "#562457" or  #"#FFDDFF"  or "red"
+format:
+  html:
+    theme: flatly
+    code-fold: false
+    toc: true   #automatically generated table of contents
+    toc-depth: 2 #option to specify the number of section levels to include in the table of contents. The default is 3 
+    toc-location: right  # body, left -for left, the defualt is right 
+    number-sections: False
+    self-contained: true
+    html-math-method: katex
+    ################
+    link-external-icon: true
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/www\.trail lecture\.org\/custom'
+#bibliography: References_Asymmetric_PT.bib
+link-citations: yes
+#csl: apa-single-spaced.csl
+
+---
+```{r setup, include=FALSE} 
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+
+
+# Web Scraping: what? why?
+
+- Increasing amount of data is available on the web, provided in an unstructured format.
+You may copy and paste, but it is time consuming and prone to errors. So, instead, we can use R packages to scrape the data. 
+
+- Web scraping is the process of extracting this information or data automatically and transform it into a structured dataset. 
+
+- Two different scenarios:
+  
+  - Screen scraping: extract data from source code of website, which is called html parser. 
+  
+  - Web APIs(application programming interface): some website offers a set of structured http requests that return JSON or XML files. So, we can use these web API's interfaces to request and download data in our R environment.  
+  
+- Read [this](https://www.geeksforgeeks.org/web-scraping-using-r-language/).
+
+## Web Scraping using rvest R package  
+
+- When scrapping web pages, we analyse the "source code (specifically the html code)" behind the web page. In most browsers, you can easily view the source code by right-clicking on the page and selecting "inspect" or view page source" or similar.
+
+- Elements in webpage are marked with so-called "html tags".For instance, we often are interested to scrape html tables. The table we are interested in is very often inside html "table tags".
+
+- Do a text search in the source code for "\<table>". There is only one place in the document and marks the beginning of the table. If you search again with "\</table>" you will find where the table ends. 
+In order to extract the content of the table, we must search for these tags, after we have identified the text between the "table" tags.
+
+- In R, there are several packages that can do web scraping. In this tutorial, we’ll have a closer look at one of them, rvest package.
+
+- If you search "web scraping rvest" online, you will find many resources. For instance, in youtube,you could watch [this video](https://www.youtube.com/watch?v=NwtxrbqE2Gc). More resources [here](https://www.datacamp.com/tutorial/r-web-scraping-rvest) and [there](https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/)
+
+- The examples below illustrate how to scrape **html** table from various website using rvest package in R.   
+
+
+
+```{r library and data, warning = FALSE, message = FALSE}
+# we first start loading relevant packages and libraries to scrap data and perform the analysis  
+library(tidyverse)
+library(rvest)  # for web scraping 
+library(janitor) # for data cleaning 
+library(lubridate) #to work with date
+library(quantmod) 
+
+
+
+```
+
+# Example 1   
+
+- In this example, we scrape the world happiness $2020$ report from the [wikipidia](https://en.wikipedia.org/wiki/World_Happiness_Report#2021_report) webpage. To scrape a table from this webpage, you could right-click on the page and choose to see the source code.
+
+
+```{r}
+# URl of the data 
+url <- "https://en.wikipedia.org/wiki/World_Happiness_Report#2021_report"
+
+url %>% read_html() %>% 
+  html_element("table.wikitable") %>%  
+  html_table() %>% head(5)
+```
+
+- The above codes just pick only the first table on the page, which is not our interest here.
+- Try the following code:
+
+```{r}
+url %>%
+   read_html() %>% 
+   html_nodes("table") %>%  
+   html_table() %>% .[[13]] %>% head(5)
+```
+
+
+```{r}
+#Assigning and renaming 
+ table <- url %>%
+   read_html() %>% 
+   html_nodes("table") %>%  
+   html_table() %>% .[[13]]
+
+ names(table) <- c("rank", "country","score", "GDPP","social_support","LEXP","Freedom","Generosity","Pcorruption")
+ 
+ head(table,5)
+```
+
+
+```{r}
+# Some plot using the data
+# plot only upper 20 happiest country 
+table %>% head(20) %>% 
+  ggplot(aes(x= score, fct_reorder(country, score))) +
+  geom_point()+ xlab("Happiness score") + ylab("country") + ggtitle('Top 20 happiest country')
+
+# only lowest 20 countries 
+table %>% tail(20) %>% 
+  ggplot(aes(x= score, fct_reorder(country, score))) +
+  geom_point()+xlab("Happiness score") + ylab("country") + ggtitle('Lower 20 happiest country')
+```
+
+
+
+
+# Example 2
+
+- In this example, we scrap the interest rate barometer of the Norwegian Family Economy from the [webpage](https://www.norskfamilie.no/barometre/rentebarometer/). Right-click on the page to see the source code.
+
+
+```{r}
+# URl of the data 
+url <- "https://www.norskfamilie.no/barometre/rentebarometer/"
+
+table <- url %>%
+  read_html() %>% 
+  html_nodes("table") %>% 
+  html_table() 
+head(table[[1]])
+
+
+```
+
+
+
+# Example 3
+
+- Not all website are easy to scrap. 
+
+- In this example we scrape a table from the [web-page](https://www.nettavisen.no/skattetall/penger/skattelistene-2022/stor-oversikt-dette-er-snittlonnen-for-ditt-arskull-pa-ditt-postnummer/s/5-95-806984). 
+
+- The table contains data of taxpayers average income & wealth per birth year in Norway, from 1917 to 2003.  
+
+
+```{r}
+# URL of the data 
+url <- "https://www.nettavisen.no/skattetall/penger/skattelistene-2022/stor-oversikt-dette-er-snittlonnen-for-ditt-arskull-pa-ditt-postnummer/s/5-95-806984"
+
+url %>% read_html() %>% 
+  html_elements("table") %>%  
+  html_table()
+```
+
+- **Empty list!**. So how can get the table?
+- Hover over the html page, we can see that the table is    
+  embedded in an **iframe tag**. 
+- In this tag, we can get the hidden datawrapper link of the data. 
+- Get the datawrapper link (this link starts with src), and open it in new window. 
+- Then press **F12**. That will open **DevTools** of the table.
+- Then find the **.csv** file from this page by pressing the keyboard **Ctrl + R**. 
+
+
+```{r}
+##Read data from the csv file of the data and look at the structure  
+raw_dataset <- read_csv("https://datawrapper.dwcdn.net/sBuxT/3/dataset.csv")
+str(raw_dataset)
+```
+
+- The data frame contains eight variables. 
+
+- Some cleaning of the data and defining the new variables. 
+
+```{r}
+#clean the data frame using the fun called "clean_names" 
+#from the "janitor" package. 
+dataset <-
+  raw_dataset %>%
+  clean_names()
+
+#Filtering to make sure we do not have text at the end  
+dataset <-
+  dataset %>%
+  filter(birthyr <= 2003)
+
+# Define the new variables
+dataset <-
+  dataset %>% 
+  mutate(share_mill_inc = 100*n_millionincome/n_taxpayers,
+         share_mill_wealth = 100*n_millionfortune/n_taxpayers)
+#head(dataset)
+#tail(dataset)
+```
+
+- Ploting birth year versus share of taxpayers with million   wealth.
+
+```{r}
+dataset %>% 
+  ggplot(aes(x=birthyr, y=share_mill_wealth)) +
+  geom_point() +
+  xlab("Birth year") +
+  ylab("Share of taxpayers with million wealth") +
+  theme_bw()
+```
+
+- It is obvious that the plot above is non-linear. 
+
+
+
+# Example 4:
+
+- In this example, we will scrape our SOK-1005 course time plan for this semester. Here is Sok-1005 [time plan](https://timeplan.uit.no/emne_timeplan.php?sem=23v&module%5B%5D=SOK-1005-1&week=1-20&View=list) list for this semester. 
+
+```{r}
+#URL
+url <- "https://timeplan.uit.no/emne_timeplan.php?sem=23v&module%5B%5D=SOK-1005-1&week=1-20&View=list"
+page <- read_html(url)
+
+table <- html_nodes(page, 'table') # one table per week
+table <- html_table(table, fill=TRUE) # force them into a list
+
+table[[1]]
+table[[6]]
+```
+
+
+
+```{r}
+#Stack the tables into a list 
+library(rlist)
+dframe <- list.stack(table, use.names = FALSE ) 
+head(dframe,5)
+```
+
+```{r}
+# define first row as variable name
+colnames(dframe) <- dframe[1,]
+dframe
+
+# remove the rows with Dato in it
+dframe <- dframe %>% filter(!Dato=="Dato")
+
+str(dframe)
+```
+
+
+```{r}
+# Separate the Dato into two columns:
+dframe <- dframe %>% separate(Dato, 
+                              into = c("Dag", "Dato"), 
+                              sep = "(?<=[A-Za-z])(?=[0-9])")                                                   #sep, https://stackoverflow.com/questions/9756360/split-character-data-into-numbers-and-letters
+
+```
+
+```{r}
+# code into date format
+dframe$Dato <- as.Date(dframe$Dato, format="%d.%m.%Y")
+# generate a week variable
+dframe$Uke <- strftime(dframe$Dato, format = "%V")
+
+```
+
+
+```{r}
+# select
+dframe <- dframe %>% select(Dag,Dato,Uke,Tid,Rom)
+dframe
+str(dframe)
+```
+
+# Task 
+Build a procedure that can scrape "many" courses, e.g. the 3 courses you have this semester, from a list
+
+
+
+# Example 5
+
+- We can also directly use R packages/libraries to scrape data into our R session. For instance, we can use the **loadSymbols** function from the **quantmod** package to scrape the stock prices of **Exxon Mobile Corporation (XOM)**, traded at NYSE.
+- The XOM stock prices can be obtained from [The Yahoo! Fiance site]( https://finance.yahoo.com/quote/XOM?p=XOM&.tsrc=fin-srch&guccounter=1).
+
+
+```{r}
+# Import XOM data from yahoo finance
+loadSymbols("XOM", src="yahoo" )
+xom_data <- XOM
+head(xom_data)
+class(xom_data) # this is xts or zoo
+
+# convert it to a data frame 
+xom.df <- as.data.frame(xom_data)  #data frame 
+class(xom.df)
+head(xom.df)
+```
+
+
+## Data Wrangling
+
+- The above data is daily data. We can do some data wrangling to convert the daily data into monthly data. Let us consider only the **Xom.Adjusted** price from January 4th of 2010 to December 30th of 2022.  
+
+```{r}
+# calculate the monthly arithmetic average of xom price data.
+# Also calculate the weighted average of xom, using volume traded as a weight.
+xom <- xom.df %>% 
+  mutate(Date = ymd(rownames(xom.df))) %>% # create a date variable from the row names
+  filter(Date >="2010-01-04",Date<"2023-01-01") %>%  # filter data only between the specified dates 
+  mutate(year = year(Date), #create the variable called year from the date variable 
+         month = month(Date), #create the variable month from the date variable 
+         day = day(Date)) %>% #create the variables day from the date variable 
+  group_by(year,month) %>% 
+  # calculate arithmetic average of xom.adjusted
+  summarise(xom_monthly_art= mean(XOM.Adjusted),
+    #calculate weighted average using volume as a weight.
+            xom_monthly_wt=sum(XOM.Adjusted*XOM.Volume)/sum(XOM.Volume)) %>% 
+  mutate(date = make_date(year,month,1)) %>% as_tibble() %>%  # make the date variable, setting all day's as first day 
+  select(date, xom_monthly_wt)
+
+#output
+head(xom,5)
+
+```
+
+
+
+
+```{r}
+# Plot  
+xom %>% ggplot(aes(x = date, y = xom_monthly_wt))+geom_point()
+
+```
+
+::: callout-note
+Not all website owners think it's okay for us to scrap their websites. Hence, they may make their websites hard to scrape.Furthermore,there might be also ethical concerns to scrape a website. However, when someone posts data on a web page, they have made the data public and cannot decide how to read the data. What may be illegal is to disclose the data commercially.
+:::
+
+
+
+
+# Example 6 
+
+Here read [Web Scraping with R studio and rvest](https://pluriza.medium.com/web-scraping-with-rstudio-and-rvest-ed0608fb837b)
+
+# Task: 
+
+1. Use code to download from [FRED](https://fred.stlouisfed.org/series/DCOILBRENTEU) the daily Brent Crude Oil Price from January 4th 2010 to December 30, 2022. 
+
+2. Perform some data wrangling and convert the daily price to month price.
+3. Plot the monthly price against date. 
+
+# API's 
+An application programming interface (API) is a computing interface which in our case defines the interaction between our R session and a server with data. It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used. Each API has its specified structure, but an API can automate your data collection. The basic steps are as follows:
+
+Use the "httr" and "jsonlite" packages. Make a "GET" request to the API to pull raw data into your environment. "Parse" that data from its raw form through JavaScript Object Notification (JSON) into a usable format. If needed, loop through each "page" and retrieve the full data set. This RStudio webinar is on [the basics, and some of the pitfalls of calling web API’s within R](https://www.rstudio.com/resources/webinars/the-basics-and-some-of-the-pitfalls-of-calling-web-apis-from-within-r/).
+
+
+As an example, we will connect to: [https://reqres.in]() a real API where we can test and learn the procedure. This is the [R code for this example](http://ansatte.uit.no/oystein.myrland/BED2056/H2020/webdataAPI.R).
+
+
+**Reading data from Statistics Norway/SSB (using API, JSON or static web-scraping)**
+Some data providers, like [Statistics Norway](https://www.ssb.no/) (SSB) offer different options for data downloads. The data used in this example is found [here](http://data.ssb.no/api/v0/dataset/).
+
+
+We will download tables, 95274 (by [counties](https://en.wikipedia.org/wiki/Counties_of_Norway))
+
+
+![Myfigure](C:/Users/dki007/OneDrive - UiT Office 365/SOK-1005V23/Web_Scraping/ssb_png.png){width="1000"}
+
+We could either scrape it as a static web-page (csv link), scrape it as a JSON object (json link) or use an API with SSB’s R package [PxWebApiData](https://cran.r-project.org/web/packages/PxWebApiData/index.html). Links with examples from R are found [here](https://www.ssb.no/omssb/tjenester-og-verktoy/api/px-api/eksempler-pa-kode). We will use the [rjstat package](https://cran.r-project.org/web/packages/rjstat/) to read JSON data.
+
+
+The data is in long format. The names of the four columns in english should read:
+"region", "date", "variable", "value".
+
+
+**Challenges**
+
+We are faced with a couple of challenges. If we try to read the static web-page (csv) note that SSB uses “,” as a decimal point instead of “.” while this is not an issue using the API or JSON format. SSB uses the norwegian letter “æ, ø, å” in some labels.
+
+
+The date format is a bit awkward, it uses a four digit year, then M for “month” and the month number with two digits. August 2020 would then be “2020M08”. It is formatted as a “character”. We need to change the date variable into a “date format”.
+
+
+We will try different options to recode the Norwegian labels into English. The recode [function in dplyr](https://dplyr.tidyverse.org/reference/recode.html) and in the [car package](https://www.rdocumentation.org/packages/car/versions/3.0-3/topics/recode), and ifelse statements.
+
+
+When joining the two dataframes we have the data in long format. This is the [R code for this example](http://ansatte.uit.no/oystein.myrland/BED2056/H2020/readSSBsAPI.R).
+
+
+
+   
