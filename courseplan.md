@@ -52,5 +52,9 @@
 |||Foundations of Functional Programming with purrr [datacamp](https://app.datacamp.com/learn/courses/foundations-of-functional-programming-with-purrr){:target='_blank_'}|
 |||**`Have a look at`** [this resource page](https://docs.google.com/document/d/1LpNH1c_Ka1A9_kNOlj387hmlk4Z3DIVkBpyoP1yRHTo/edit?usp=sharing)|
 |12|31/03||
+||||
+||||
+||||
+||||
 
 
