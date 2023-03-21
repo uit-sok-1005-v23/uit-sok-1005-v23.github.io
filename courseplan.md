@@ -26,9 +26,9 @@
 |**Deadline**|08/02|[Assignment-1](https://docs.google.com/document/d/1-MzRu4dsBwtIPBFWYnNz01lHbQgNWAFu4Xi_jzsHoHg/edit?usp=sharing){:target='_blank_'},<br /> [Solution](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Solution.Assignment-1.R){:target='_blank_'}|
 |6|14/02|Web Scraping with R|
 |||Chapter 12 and 13 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
-|||Web Scraping in R [datacamp](https://app.datacamp.com/learn/courses/web-scraping-in-r){:target='_blank_'}, <br /> [Quarto file](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Web_scraping.qmd){:target='_blank_'}|
+|||Web Scraping in R [datacamp](https://app.datacamp.com/learn/courses/web-scraping-in-r){:target='_blank_'}|
 |||Working with Web Data in R [datacamp](https://app.datacamp.com/learn/courses/web-scraping-in-r){:target='_blank_'}|
-|||**`In class:`** <br /> [lecture notes on web scraping](https://uit-sok-1005-v23.github.io/Web_scraping.html)|
+|||**`In class:`** <br /> [lecture notes on web scraping](https://uit-sok-1005-v23.github.io/Web_scraping.html), <br /> [Quarto file](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Web_scraping.qmd){:target='_blank_'}|
 |**Deadline**|24/02|[Assignment-2](https://docs.google.com/document/d/1scj5yyL-EO6_sEebkUJc9gaJuISom5HTLgnJMjE519Q/edit?usp=sharing){:target='_blank_'} <br /> Store your code in your GitHub repository, and submit the link in Canvas. <br />[Solution](https://github.com/uit-sok-1005-v23/uit-sok-1005-v23.github.io/blob/main/Solution_Assignment_2.R){:target='_blank_'} |
 |7|20/02|Data Visualization|
 |||Chapter 28 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
