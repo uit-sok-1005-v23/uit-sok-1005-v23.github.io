@@ -51,10 +51,9 @@
 |||Introduction to Writing Functions in R [datacamp](https://app.datacamp.com/learn/courses/introduction-to-writing-functions-in-r){:target='_blank_'}|
 |||Foundations of Functional Programming with purrr [datacamp](https://app.datacamp.com/learn/courses/foundations-of-functional-programming-with-purrr){:target='_blank_'}|
 |||**`Have a look at`** [this resource page](https://docs.google.com/document/d/1LpNH1c_Ka1A9_kNOlj387hmlk4Z3DIVkBpyoP1yRHTo/edit?usp=sharing)|
-|13|31/03||
 |**Deadline**|05/04|**`Use Quarto and prepare a small html report of this`** [Assignment 4](https://docs.google.com/document/d/1qcrFc-YY2K0ieHzaOxjh5gNQZiNoo3oCSVCL-Cum2Ro/edit?usp=sharing){:target='_blank_'}. **`This is the final assignment.`**|
-||||
-||||
-||||
+|13|||
+|14|||
+|15|||
 
 
