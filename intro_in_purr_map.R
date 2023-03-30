@@ -1,6 +1,4 @@
 
-# The last session in relation to R
-
 # In this code, you will learn:
 # - about the map() fun from the Purr package.
 #   Purrr is one of those tidyverse packages.
