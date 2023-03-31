@@ -36,9 +36,9 @@ data %>% map(mean)
 data %>% map_dbl(mean)
 
 # Calculate the mean of each element of the list 
-my_list <- list(c(1,2,3),
+my_list <- list(c(2),
                 c(4,5,6),
-                c(7,8,9))
+                c(7,8))
 
 # Find the mean of each elements of the list, tedious approach 
 my_list %>% .[[1]] %>% mean
