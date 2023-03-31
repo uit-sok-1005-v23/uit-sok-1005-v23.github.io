@@ -9,6 +9,9 @@
 rm(list = ls())
 library(tidyverse)
 
+#cheet sheet
+browseURL("https://github.com/rstudio/cheatsheets/blob/main/purrr.pdf")
+
 # apply a function to each element of a list or atomic vector
 # map(.x, .f) is the main mapping function and returns a list
 # map_df(.x, .f) returns a data frame
