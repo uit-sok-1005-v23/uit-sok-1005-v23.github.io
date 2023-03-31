@@ -2,7 +2,7 @@
 
 # courseplan SOK-1005 Spring 2023
 
-| Date <img width=80/>  | Session  |Topics/Resources <img width=200/>  |
+| Session <img width=80/>  | Date  |Topics/Resources <img width=200/>  |
 |-----------------------|---------|-----------------------------------| 
 | 1|17/01 | Introduction|
 | | | Chapter 1 [RfDC](https://r4ds.had.co.nz/){:target='_blank_'}|
@@ -53,7 +53,11 @@
 |||**`Have a look at`** [this resource page](https://docs.google.com/document/d/1LpNH1c_Ka1A9_kNOlj387hmlk4Z3DIVkBpyoP1yRHTo/edit?usp=sharing)|
 |**Deadline**|05/04|**`Use Quarto and prepare a small html report of this`** [Assignment 4](https://docs.google.com/document/d/1qcrFc-YY2K0ieHzaOxjh5gNQZiNoo3oCSVCL-Cum2Ro/edit?usp=sharing){:target='_blank_'}. **`This is the final assignment.`**|
 |13|13/04| [Notebook 9 - jobbes med før og fullføres i undervisning.](https://github.com/espensirnes/notebooks/blob/main/9%20-%20webskraping%20med%20python.ipynb)|
-|14|||
-|15|||
+|14|20/04| [Notebook 10 - jobbes med før og fullføres i undervisning.]()|
+|Innlevering - 1|##/##| TBA|
+|15|27/04| [Notebook 11 - jobbes med før og fullføres i undervisning.]()|
+|16|04/05| [Notebook 12 - jobbes med før og fullføres i undervisning.]()|
+|Innlevering - 2|##/##| TBA|
+
 
 
