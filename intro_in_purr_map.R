@@ -329,6 +329,9 @@ csv_files %>%
   map_dfr(read_csv)
 
 # Modify the setting 
+#' Notice that the Month_Year column was imported as a character instead 
+#' of a date-time. We can modify the arguments of read_csv() inside the 
+#' call to map_dfr(), which sets the arguments for each CSV import.                    
 csv_files %>% 
   map_dfr(read_csv, col_types = cols("Month_Year" = col_date(format = "%b-%y"))) 
 
