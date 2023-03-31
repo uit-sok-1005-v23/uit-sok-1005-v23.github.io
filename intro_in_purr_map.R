@@ -51,6 +51,12 @@ my_list %>% map_dbl(mean)
 
 # Q Add 10 to each element of the list
 my_list %>% map(function(x){x+10})
+
+# Alternatively, first define the fun separately 
+fun <- function(x){x+10}
+my_list %>% map(fun)
+
+# or, using anonymous function
 my_list %>% map(~.x+10) #shorthand function
 
 
