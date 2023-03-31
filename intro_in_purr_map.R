@@ -28,12 +28,13 @@ data %>% summarise(mean_x1=mean(x1),
                    mean_x3=mean(x3))
 
 # In one sweep, using the function map()
-data %>% map(mean)  #output a list
-data %>% map_dbl(mean) #output an atomic vector
+
+map(.x=data, .f=mean) #output a list
+map_dbl(.x=data, .f=mean)  #output an atomic vector
 
 # or 
-map(.x=data, .f=mean)
-map_dbl(.x=data, .f=mean)
+data %>% map(mean)  
+data %>% map_dbl(mean)
 
 # Calculate the mean of each element of the list 
 my_list <- list(c(1,2,3),
