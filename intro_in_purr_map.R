@@ -370,6 +370,8 @@ data_dir %>%
   mutate(Month_Year_2 = if_else(is.na(Month_Year_1),ym(Month_Year),Month_Year_1)) %>%
   select(-Month_Year_1) %>% 
  View()
+                        
+browseURL("https://www.gerkelab.com/blog/2018/09/import-directory-csv-purrr-readr/")
 
 
 
