@@ -7,7 +7,7 @@ library(rlist)
 # The URL's
 
 # static course
-browseURL("http://timeplan.uit.no/emne_timeplan.php?sem=20h&module%5B%5D=BED-2056-1&View=list")
+browseURL("https://timeplan.uit.no/emne_timeplan.php?sem=23v&module%5B%5D=SOK-1005-1&View=list")
 
 course <- list("SOK-3008-1","SOK-3020-1","SOK-1005-1")
 
