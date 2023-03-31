@@ -12,7 +12,7 @@ browseURL("https://timeplan.uit.no/emne_timeplan.php?sem=23v&module%5B%5D=SOK-10
 course <- list("SOK-3008-1","SOK-3020-1","SOK-1005-1")
 
 semester <- 
-  list(y = c(20, 21, 22),
+  list(y = c(21, 22, 23),
        s = c("v","h"),
        sep = c("")) %>% 
   cross() %>% map(lift(paste)) 
