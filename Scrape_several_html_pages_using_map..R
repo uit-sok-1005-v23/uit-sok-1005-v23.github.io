@@ -40,9 +40,9 @@ scrape <- function(url) {
 # map the function on the list of url's
 dlist <- map(url, safely(scrape))
 
-dlist[[3]]
+dlist[[5]]
 
-dlist[[3]][[1]]
+dlist[[5]][[1]]
 
 dframe <- dlist %>% map('result') %>% map_df(., bind_rows)
 
