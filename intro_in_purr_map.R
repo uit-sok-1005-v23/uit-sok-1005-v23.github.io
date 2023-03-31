@@ -28,7 +28,6 @@ data %>% summarise(mean_x1=mean(x1),
                    mean_x3=mean(x3))
 
 # In one sweep, using the function map()
-
 map(.x=data, .f=mean) #output a list
 map_dbl(.x=data, .f=mean)  #output an atomic vector
 
