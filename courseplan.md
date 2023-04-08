@@ -55,7 +55,7 @@
 |13|13/04| [Notebook 9(Nettskraping i python) - jobbes med før og fullføres i undervisning.](https://github.com/espensirnes/notebooks/blob/main/9%20-%20webskraping%20med%20python.ipynb)|
 |14|20/04| [Notebook 10(Regresjon i python) - jobbes med før og fullføres i undervisning.](https://github.com/espensirnes/notebooks/blob/main/10%20-%20statsmodels.ipynb)|
 |15|27/04| [Notebook 11(Interaktive websider) - jobbes med før og fullføres i undervisning.](https://github.com/espensirnes/notebooks/blob/main/11%20-%20interaktive%20websider.ipynb)|
-|**Innlevering** |28/04| [Arbeidskrav 5 - nettkraping, datavask og regresjonsmodel]()|
+|**Innlevering** |28/04| [Arbeidskrav 5 - nettkraping, datavask og regresjonsmodel](https://uit.instructure.com/courses/29391/files?preview=2384546)|
 |16|04/05| [Notebook 12(Animasjon og klasse) - jobbes med før og fullføres i undervisning.](https://github.com/espensirnes/notebooks/blob/main/12%20-%20animasjon%20med%20klasse.ipynb)|
 ||12/05|Prosjektpresentasjon - [se liste over oppsett]()|
 |**`Project`**|**`Deadline:`** <br /> **`torsdag 01 juni kl 13:00`**|[SOK-1005 Data til Prosjektoppgave Vår 2023 ](https://docs.google.com/document/d/1DtMgMeEk8tcsI1nWqR_ika_bmDg1ADpy64as7zDqqHc/edit?usp=sharing){:target='_blank_'} <br /> [SOK-1005:Prosjektoppgave Vår 2023](https://docs.google.com/document/d/1vr6wHlQXA5iP5X3RzxpU3T7PHGUkQzULitxvV83Pf7Q/edit?usp=sharing){:target='_blank_'}|
