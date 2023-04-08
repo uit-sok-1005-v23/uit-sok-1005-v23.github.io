@@ -52,11 +52,11 @@
 |||Foundations of Functional Programming with purrr [datacamp](https://app.datacamp.com/learn/courses/foundations-of-functional-programming-with-purrr){:target='_blank_'}|
 |||**`Have a look at`** [this resource page](https://docs.google.com/document/d/1LpNH1c_Ka1A9_kNOlj387hmlk4Z3DIVkBpyoP1yRHTo/edit?usp=sharing)|
 |**Deadline**|05/04|**`Use Quarto and prepare a small html report of this`** [Assignment 4](https://docs.google.com/document/d/1qcrFc-YY2K0ieHzaOxjh5gNQZiNoo3oCSVCL-Cum2Ro/edit?usp=sharing){:target='_blank_'}. **`This is the final assignment.`**|
-|13|13/04| [Notebook 9 - jobbes med før og fullføres i undervisning.](https://github.com/espensirnes/notebooks/blob/main/9%20-%20webskraping%20med%20python.ipynb)|
-|14|20/04| [Notebook 10 - jobbes med før og fullføres i undervisning.]()|
-|15|27/04| [Notebook 11 - jobbes med før og fullføres i undervisning.]()|
-|Innlevering |28/04| [Webskraping, datavask og regresjonsmodel]()|
-|16|04/05| [Notebook 12 - jobbes med før og fullføres i undervisning.]()|
+|13|13/04| [Notebook 9(Nettskraping i python) - jobbes med før og fullføres i undervisning.](https://github.com/espensirnes/notebooks/blob/main/9%20-%20webskraping%20med%20python.ipynb)|
+|14|20/04| [Notebook 10(Regresjon i python) - jobbes med før og fullføres i undervisning.]()|
+|15|27/04| [Notebook 11(Interaktive websider) - jobbes med før og fullføres i undervisning.]()|
+|Innlevering |28/04| [Nettkraping, datavask og regresjonsmodel]()|
+|16|04/05| [Notebook 12(Animasjon og klasse) - jobbes med før og fullføres i undervisning.]()|
 ||||
 |**`Project`**|**`Deadline:`** <br /> **`torsdag 01 juni kl 13:00`**|[SOK-1005 Data til Prosjektoppgave Vår 2023 ](https://docs.google.com/document/d/1DtMgMeEk8tcsI1nWqR_ika_bmDg1ADpy64as7zDqqHc/edit?usp=sharing){:target='_blank_'} <br /> [SOK-1005:Prosjektoppgave Vår 2023](https://docs.google.com/document/d/1vr6wHlQXA5iP5X3RzxpU3T7PHGUkQzULitxvV83Pf7Q/edit?usp=sharing){:target='_blank_'}|
 
