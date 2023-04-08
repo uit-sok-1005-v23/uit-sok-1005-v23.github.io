@@ -57,7 +57,7 @@
 |15|27/04| [Notebook 11(Interaktive websider) - jobbes med før og fullføres i undervisning.]()|
 |Innlevering |28/04| [Nettkraping, datavask og regresjonsmodel]()|
 |16|04/05| [Notebook 12(Animasjon og klasse) - jobbes med før og fullføres i undervisning.]()|
-||||
+||12/05|Prosjektpresentasjon - [se liste]()|
 |**`Project`**|**`Deadline:`** <br /> **`torsdag 01 juni kl 13:00`**|[SOK-1005 Data til Prosjektoppgave Vår 2023 ](https://docs.google.com/document/d/1DtMgMeEk8tcsI1nWqR_ika_bmDg1ADpy64as7zDqqHc/edit?usp=sharing){:target='_blank_'} <br /> [SOK-1005:Prosjektoppgave Vår 2023](https://docs.google.com/document/d/1vr6wHlQXA5iP5X3RzxpU3T7PHGUkQzULitxvV83Pf7Q/edit?usp=sharing){:target='_blank_'}|
 
 
